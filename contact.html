@@ -15,9 +15,11 @@ permalink: /raclette
       <h2 class="alt-h3 mb-2">
 Merci de remplir le formulaire suivant pour venir à la raclette.
       </h2>
-   <form action="/action.php" method="post">Nom: <input name="name" type="text" /> <br />
-
-</select><textarea cols="20" name="comments" rows="5">Liste de ce que vous amenez</textarea><br /> <label><input name="terms" type="checkbox" value="tandc" />Je promets que je serai présent</label> <br /> <input type="submit" value="Submit" /></form>
+    <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+    <input type="email" name="email" placeholder="Your email">
+    <textarea name="message" placeholder="Test Message"></textarea>
+    <button type="submit">Confirme ta présence jeune Padawan</button>
+    </form>
     </div>
          <p><a href="/contact" rel="nofollow">Retour à l'accueil</a></p>
   </div>
